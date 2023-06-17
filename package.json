@@ -1,7 +1,6 @@
 {
   "name": "nalaso-express",
   "version": "1.0.0",
-  "private": true,
   "bin":"cli.js",
   "scripts": {
     "start": "nodemon ./bin/www"
