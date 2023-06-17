@@ -1,4 +1,4 @@
-# express-mongo-jwt-bcrypt
+# nalaso-express
 
 ## Usage
 
