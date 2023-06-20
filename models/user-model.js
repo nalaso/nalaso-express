@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema({
-    employeeId: {
+    username: {
         type: String,
         required: [true, "Please provide a unique emp_id"],
     },
