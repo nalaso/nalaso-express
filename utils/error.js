@@ -12,7 +12,7 @@ module.exports.error = (err, req, res, next)=>{
 
     console.log("--------------------");
     console.log("Error: ", err?.name);
-    console.log(err);
+    console.log("Message : ", err?.message);
     console.log("--------------------");
 
     // check for err message & status code

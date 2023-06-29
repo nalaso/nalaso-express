@@ -9,7 +9,7 @@ module.exports.getMyProfile = catchAsyncError(async (req, res, next) => {
         return next(new ErrorHandler("Application id not valid", 400));
     }
 
-    var user = await userModel.findOne({ 
+    const user = await userModel.findOne({ 
         username: decodedUser.username 
     });
     
